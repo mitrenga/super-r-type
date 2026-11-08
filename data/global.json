@@ -1,0 +1,335 @@
+{
+ "_comment": "Super R-Type (USA): global tables \u2014 play order of the sections, difficulties, lives, music and scroll speeds per section; tools/dumpglobal.py; points and the beam are M4-M5 (?).",
+ "playOrder": [
+  14,
+  15,
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ],
+ "lastSection": 13,
+ "levelOfSection": {
+  "0": {
+   "level": 1,
+   "part": "level"
+  },
+  "1": {
+   "level": 1,
+   "part": "boss?"
+  },
+  "2": {
+   "level": 2,
+   "part": "level"
+  },
+  "3": {
+   "level": 2,
+   "part": "boss?"
+  },
+  "4": {
+   "level": 3,
+   "part": "level"
+  },
+  "5": {
+   "level": 3,
+   "part": "boss?"
+  },
+  "6": {
+   "level": 4,
+   "part": "level"
+  },
+  "7": {
+   "level": 4,
+   "part": "boss?"
+  },
+  "8": {
+   "level": 5,
+   "part": "level"
+  },
+  "9": {
+   "level": 5,
+   "part": "boss?"
+  },
+  "10": {
+   "level": 6,
+   "part": "level"
+  },
+  "11": {
+   "level": 6,
+   "part": "boss?"
+  },
+  "12": {
+   "level": 7,
+   "part": "level"
+  },
+  "13": {
+   "level": 7,
+   "part": "boss?"
+  }
+ },
+ "launchSections": [
+  14,
+  15
+ ],
+ "difficulty": {
+  "names": [
+   "NOVICE",
+   "EASY",
+   "NORMAL",
+   "HARD"
+  ],
+  "default": 1,
+  "variable": 8263381,
+  "proBit": 16
+ },
+ "lives": {
+  "start": 3,
+  "variable": 8263393
+ },
+ "controls": {
+  "fire": "B",
+  "autofire": [
+   "X",
+   "Y"
+  ],
+  "force": [
+   "A",
+   "R"
+  ],
+  "pause": "Start",
+  "source": "manual p. 6"
+ },
+ "sections": [
+  {
+   "section": 0,
+   "bank": 16,
+   "scrollSpeed": 84,
+   "scrollEnd": 2432,
+   "music": 1,
+   "tileSet": 1090296,
+   "layerSpeeds": [
+    84,
+    42
+   ]
+  },
+  {
+   "section": 1,
+   "bank": 17,
+   "scrollSpeed": 64,
+   "scrollEnd": 256,
+   "music": 0,
+   "tileSet": 1148900,
+   "layerSpeeds": [
+    64,
+    64
+   ]
+  },
+  {
+   "section": 2,
+   "bank": 18,
+   "scrollSpeed": 84,
+   "scrollEnd": 2560,
+   "music": 2,
+   "tileSet": 1223188,
+   "layerSpeeds": [
+    84,
+    42
+   ]
+  },
+  {
+   "section": 3,
+   "bank": 19,
+   "scrollSpeed": 64,
+   "scrollEnd": 256,
+   "music": 0,
+   "tileSet": 1280980,
+   "layerSpeeds": [
+    64,
+    32
+   ]
+  },
+  {
+   "section": 4,
+   "bank": 20,
+   "scrollSpeed": 84,
+   "scrollEnd": 2944,
+   "music": 3,
+   "tileSet": 2064384,
+   "layerSpeeds": [
+    84,
+    42
+   ]
+  },
+  {
+   "section": 5,
+   "bank": 21,
+   "scrollSpeed": 256,
+   "scrollEnd": 512,
+   "music": 0,
+   "tileSet": 1356028,
+   "layerSpeeds": [
+    256,
+    256
+   ]
+  },
+  {
+   "section": 6,
+   "bank": 22,
+   "scrollSpeed": 102,
+   "scrollEnd": 2560,
+   "music": 4,
+   "tileSet": 1410916,
+   "layerSpeeds": [
+    102,
+    48204
+   ]
+  },
+  {
+   "section": 7,
+   "bank": 23,
+   "scrollSpeed": 64,
+   "scrollEnd": 256,
+   "music": 0,
+   "tileSet": 1545208,
+   "layerSpeeds": [
+    64,
+    64
+   ]
+  },
+  {
+   "section": 8,
+   "bank": 24,
+   "scrollSpeed": 64,
+   "scrollEnd": 2432,
+   "music": 5,
+   "tileSet": 1802240,
+   "layerSpeeds": [
+    64,
+    48064
+   ]
+  },
+  {
+   "section": 9,
+   "bank": 25,
+   "scrollSpeed": 64,
+   "scrollEnd": 16384,
+   "music": 0,
+   "tileSet": 1681586,
+   "layerSpeeds": [
+    43040,
+    64
+   ]
+  },
+  {
+   "section": 10,
+   "bank": 26,
+   "scrollSpeed": 84,
+   "scrollEnd": 2688,
+   "music": 6,
+   "tileSet": 1746804,
+   "layerSpeeds": [
+    84,
+    42
+   ]
+  },
+  {
+   "section": 11,
+   "bank": 27,
+   "scrollSpeed": 256,
+   "scrollEnd": 128,
+   "music": 0,
+   "tileSet": 1821932,
+   "layerSpeeds": [
+    64,
+    64
+   ]
+  },
+  {
+   "section": 12,
+   "bank": 28,
+   "scrollSpeed": 84,
+   "scrollEnd": 2688,
+   "music": 7,
+   "tileSet": 1874632,
+   "layerSpeeds": [
+    84,
+    42
+   ]
+  },
+  {
+   "section": 13,
+   "bank": 29,
+   "scrollSpeed": 64,
+   "scrollEnd": 128,
+   "music": 0,
+   "tileSet": 1942880,
+   "layerSpeeds": [
+    64,
+    64
+   ]
+  },
+  {
+   "section": 14,
+   "bank": 30,
+   "scrollSpeed": 0,
+   "scrollEnd": 0,
+   "music": 3,
+   "tileSet": 2005614,
+   "layerSpeeds": [
+    0,
+    0
+   ]
+  },
+  {
+   "section": 15,
+   "bank": 30,
+   "scrollSpeed": 0,
+   "scrollEnd": 768,
+   "music": 0,
+   "tileSet": 2005614,
+   "layerSpeeds": [
+    0,
+    1152
+   ]
+  },
+  {
+   "section": 16,
+   "bank": 12,
+   "scrollSpeed": 0,
+   "scrollEnd": 0,
+   "music": 1,
+   "tileSet": 824844,
+   "layerSpeeds": [
+    128,
+    0
+   ]
+  },
+  {
+   "section": 17,
+   "bank": 12,
+   "scrollSpeed": 0,
+   "scrollEnd": 0,
+   "music": 0,
+   "tileSet": 824844,
+   "layerSpeeds": [
+    128,
+    0
+   ]
+  }
+ ],
+ "open": {
+  "points": "? M4",
+  "beamCharge": "? M4",
+  "shipSpeedSteps": "? M3"
+ }
+}

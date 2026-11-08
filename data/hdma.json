@@ -1,0 +1,8 @@
+{
+ "_comment": "Super R-Type (USA): HDMA \u2014 none. $420C = 0 from reset on, no channel register written at run time (tools/scanhw.py, tools/dumpppu.py, build/m2/collect DMA catalogue); tools/dumphdma.py.",
+ "hdmaen": 0,
+ "channels": [],
+ "inPictureWrites": [
+  "INIDISP"
+ ]
+}
