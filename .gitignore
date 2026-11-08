@@ -1,0 +1,17 @@
+build/
+tools/vendor/
+node_modules/
+config/config.php
+sources/cart/*.sfc
+sources/rom/*.bin
+sources/docs/raw/
+sources/media/
+__pycache__/
+*.pyc
+js
+sources/
+CLAUDE.md
+.claude/
+MILNIKY.md
+ZADANI.md
+*.log

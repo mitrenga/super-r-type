@@ -1,0 +1,6 @@
+<?php
+
+  // internal project (ZADANI.md §0): local run only, the browser loads app/ directly
+  $devMode = true;
+
+  // no database: the hall of fame is local (localStorage), db/appData.php answers hiScore 0
